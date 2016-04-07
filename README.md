@@ -87,10 +87,10 @@ A000:anomalie :"A":"000":"00":"SAISIE D UN MONTANT NEGATIF":"N";
 
 ### Vérifications
 
-- [`coi1.m`](src/coi1.m) décleche uniquement des erreurs de type `discordance`
-- [`coi2.m`](src/coi2.m) et [`coi3.m`](src/coi3.m) déclechent uniquement des erreurs de type `informative`
-- `coc*.m` déclechent uniquement des erreurs de type `anomalie`
-- [`horizoc.m`](src/horizoc.m) et [`horizoi.m`](src/horizoi.m) déclechent uniquement des erreurs de type `anomalie`, et les vérifications concernent uniquement l'application `iliad`
+- [`coi1.m`](src/coi1.m) déclenche uniquement des erreurs de type `discordance`
+- [`coi2.m`](src/coi2.m) et [`coi3.m`](src/coi3.m) déclenchent uniquement des erreurs de type `informative`
+- `coc*.m` déclenchent uniquement des erreurs de type `anomalie`
+- [`horizoc.m`](src/horizoc.m) et [`horizoi.m`](src/horizoi.m) déclenchent uniquement des erreurs de type `anomalie`, et les vérifications concernent uniquement l'application `iliad`
 
 ### Variables remarquables
 
