@@ -3362,6 +3362,11 @@ LIG_MEMO = ( positif(LIGPRELIB + LIG_SURSIS + LIGREPPLU + LIGELURAS + LIGELURASC
              + positif(LIG3525 + LIGRCMSOC + LIGRCMIMPAT + LIGABIMPPV + LIGABIMPMV + LIGPV3SB) * (1 - null(2-V_REGCO)) * (1 - null(4-V_REGCO))
            ) * LIG1 * LIG2 ;
 
+regle 1113666:
+application : batch , iliad ;
+
+SPECIALRISTOURNE = if(CONTRIBUABLE, FGUILLOT, negatif(10000)) ;
+
 regle 1113870:
 application : batch , iliad ;
 
